@@ -1,0 +1,7 @@
+| parameter | hand-set | easa_evo_s1 | easa_evo_s2 | easa_evo_s3 |
+|---|---|---|---|---|
+| avoid <- obstacle | +0.90 | +0.79 | +0.53 | +0.61 |
+| gru <- obstacle | -0.30 | -0.20 | -0.10 | +0.09 |
+| explore <- hunger | +0.60 | +0.48 | -0.19 | +0.13 |
+| avoid <- gru_bid | +0.00 | +0.53 | +0.31 | -0.81 |
+| dopamine D1, D2 | 0.20, 0.20 | 0.11, 0.28 | 0.20, 0.21 | 0.20, 0.22 |

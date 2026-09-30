@@ -1,0 +1,29 @@
+run easa_evo_s3 (easa_evo, task small), 30 test episodes
+
+FOOD KEEPING
+  time on food (per robot)             38.4%
+  time with both on food at once       18.5%
+  departures from food per episode     0.20
+
+BASAL GANGLIA (while ON the food)
+  explore  selected   1.3% of on-food time
+  avoid    selected   0.0% of on-food time
+  gru      selected  99.8% of on-food time
+  P(avoid | on food, partner near)      0.1%
+  P(avoid | on food, partner far)       0.0%
+  departures preceded by avoid         33.3%  (2 of 6)
+
+SIGNAL SPECIFICITY
+  emitting overall                      1.3%
+  P(emit | on food)                     3.3%
+  P(emit | off food)                    0.1%
+  P(emit | obstacle ahead)              1.2%
+  (27000 control steps x 2 robots)
+
+EVOLVED BG PRIORITIES (hand-set easa_safe value in brackets)
+  sensory weights            obstacle         gru_bid            fear          hunger
+  explore               -0.36 [-0.3]   -0.09 [-0.3]    0.43 [+0.0]    0.13 [+0.6]
+  avoid                  0.61 [+0.9]   -0.81 [+0.0]    0.55 [+0.5]    0.88 [+0.0]
+  gru                    0.09 [-0.3]    1.36 [+1.2]   -0.07 [+0.0]    0.53 [+0.0]
+  cortex weights     explore 0.26 [0.3]  avoid 0.16 [0.3]  gru 0.18 [0.3]
+  dopamine           D1 0.20 [0.2]   D2 0.22 [0.2]

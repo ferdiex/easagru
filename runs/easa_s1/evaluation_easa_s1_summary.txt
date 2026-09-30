@@ -1,0 +1,4 @@
+run easa_s1, condition easa, champion gen0140.npy, validation fitness 0.4874
+signal normal  fitness 0.3362 +- 0.0231 (sem) | both on food  32.0% | emitting   0.2% of time | GRU in control   2.5%
+signal off     fitness 0.3502 +- 0.0227 (sem) | both on food  35.0% | emitting   0.2% of time | GRU in control   2.5%
+signal random  fitness 0.3467 +- 0.0225 (sem) | both on food  34.0% | emitting   0.2% of time | GRU in control   2.5%

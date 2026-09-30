@@ -1,0 +1,32 @@
+gru_s1          normal-off     diff +0.128  Wilcoxon p = 1.1e-07  (n = 100)
+gru_s1          normal-random  diff +0.235  Wilcoxon p = 6.1e-11  (n = 100)
+gru_s2          normal-off     diff +0.003  Wilcoxon p = 0.39  (n = 100)
+gru_s2          normal-random  diff +0.009  Wilcoxon p = 0.27  (n = 100)
+gru_s3          normal-off     diff +0.497  Wilcoxon p = 4.5e-17  (n = 100)
+gru_s3          normal-random  diff +0.398  Wilcoxon p = 6.5e-16  (n = 100)
+easa_evo_s1     normal-off     diff +0.061  Wilcoxon p = 0.0001  (n = 100)
+easa_evo_s1     normal-random  diff +0.081  Wilcoxon p = 9.5e-07  (n = 100)
+easa_evo_s2     normal-off     diff -0.001  Wilcoxon p = 0.26  (n = 100)
+easa_evo_s2     normal-random  diff -0.002  Wilcoxon p = 0.85  (n = 100)
+easa_evo_s3     normal-off     diff -0.005  Wilcoxon p = 0.016  (n = 100)
+easa_evo_s3     normal-random  diff -0.006  Wilcoxon p = 0.31  (n = 100)
+easa_safe_s1    normal-off     diff -0.011  Wilcoxon p = 0.63  (n = 100)
+easa_safe_s1    normal-random  diff +0.062  Wilcoxon p = 0.013  (n = 100)
+easa_s1         normal-off     diff -0.014  Wilcoxon p = 0.07  (n = 100)
+easa_s1         normal-random  diff -0.010  Wilcoxon p = 0.29  (n = 100)
+gru_compass_s1  normal-off     diff +0.000  Wilcoxon p = 0.53  (n = 100)
+gru_compass_s1  normal-random  diff -0.000  Wilcoxon p = 0.31  (n = 100)
+gru_big_s1      normal-off     diff +0.146  Wilcoxon p = 2.2e-05  (n = 100)
+gru_big_s1      normal-random  diff +0.200  Wilcoxon p = 3.3e-10  (n = 100)
+gru_big_s2      normal-off     diff +0.173  Wilcoxon p = 1.6e-11  (n = 100)
+gru_big_s2      normal-random  diff +0.223  Wilcoxon p = 5.2e-13  (n = 100)
+gru_big_s3      normal-off     diff -0.002  Wilcoxon p = 0.89  (n = 100)
+gru_big_s3      normal-random  diff +0.000  Wilcoxon p = 0.92  (n = 100)
+gru_s1 vs gru_s2  normal diff +0.014  Wilcoxon p = 0.42
+gru_s1 vs gru_s3  normal diff -0.012  Wilcoxon p = 0.93
+gru_s2 vs gru_s3  normal diff -0.026  Wilcoxon p = 0.38
+gru_big_s1 vs gru_big_s2  normal diff -0.323  Wilcoxon p = 1.4e-10
+gru_big_s1 vs gru_big_s3  normal diff -0.158  Wilcoxon p = 0.0004
+gru_big_s2 vs gru_big_s3  normal diff +0.165  Wilcoxon p = 0.00029
+GRU vs EASA evolved, replicate means 0.588+-0.013 vs 0.362+-0.007, Welch t p = 0.00012
+GRU vs EASA evolved, paired over 100 episodes (mean of 3 runs): diff +0.225, Wilcoxon p = 4.9e-11

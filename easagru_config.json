@@ -1,0 +1,47 @@
+{
+  "world": {
+    "gravity": -9.81,
+    "timestep": 0.00833333,
+    "solver_iterations": 150,
+    "arena_size": 1.0,
+    "wall_height": 0.1,
+    "wall_thickness": 0.02,
+    "floor_friction": 0.5
+  },
+  "robot": {
+    "urdf_path": "robots/epuck.urdf",
+    "urdf_lean_path": "robots/epuck_lean.urdf",
+    "max_wheel_angvel": 6.28,
+    "wheel_radius": 0.02,
+    "axle_length": 0.052,
+    "wheel_motor_force": 2.0,
+    "linear_damping": 0.9,
+    "angular_damping": 0.9,
+    "friction": {
+      "wheel": 1.5,
+      "chassis": 0.1,
+      "caster": 0.05
+    }
+  },
+  "sensors": {
+    "control_period_steps": 8,
+    "noise": true
+  },
+  "floor": {
+    "reflectance": 1.0
+  },
+  "task": {
+    "episode_seconds": 60,
+    "food_radius": 0.1,
+    "food_reflectance": 0.2,
+    "on_food_threshold": 500,
+    "wall_margin": 0.08,
+    "food_wall_margin": 0.12,
+    "min_spawn_food_dist": 0.3,
+    "min_spawn_robot_dist": 0.15
+  },
+  "signal": {
+    "range": null,
+    "delay_control_steps": 1
+  }
+}

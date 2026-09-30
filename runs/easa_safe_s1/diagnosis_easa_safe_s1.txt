@@ -1,0 +1,21 @@
+run easa_safe_s1 (easa_safe, task small), 30 test episodes
+
+FOOD KEEPING
+  time on food (per robot)             25.9%
+  time with both on food at once        4.9%
+  departures from food per episode     1.53
+
+BASAL GANGLIA (while ON the food)
+  explore  selected   1.5% of on-food time
+  avoid    selected   3.0% of on-food time
+  gru      selected  99.1% of on-food time
+  P(avoid | on food, partner near)     12.0%
+  P(avoid | on food, partner far)       0.0%
+  departures preceded by avoid         10.9%  (5 of 46)
+
+SIGNAL SPECIFICITY
+  emitting overall                     37.3%
+  P(emit | on food)                    97.1%
+  P(emit | off food)                   16.4%
+  P(emit | obstacle ahead)              4.6%
+  (27000 control steps x 2 robots)

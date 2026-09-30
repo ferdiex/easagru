@@ -1,0 +1,13 @@
+run gru_big_s2 (gru, task big), 30 test episodes
+
+FOOD KEEPING
+  time on food (per robot)             49.3%
+  time with both on food at once       44.9%
+  departures from food per episode     0.03
+
+SIGNAL SPECIFICITY
+  emitting overall                     50.0%
+  P(emit | on food)                    98.9%
+  P(emit | off food)                    2.5%
+  P(emit | obstacle ahead)             94.2%
+  (40500 control steps x 2 robots)

@@ -1,0 +1,4 @@
+run gru_compass_s1, condition gru_compass, champion gen0140.npy, validation fitness 0.9263
+signal normal  fitness 0.9280 +- 0.0015 (sem) | both on food 100.0% | emitting   0.0% of time
+signal off     fitness 0.9279 +- 0.0015 (sem) | both on food 100.0% | emitting   0.0% of time
+signal random  fitness 0.9281 +- 0.0015 (sem) | both on food 100.0% | emitting   0.0% of time

@@ -1,0 +1,4 @@
+run gru_s2, condition gru, champion gen0143.npy, validation fitness 0.5958
+signal normal  fitness 0.5743 +- 0.0229 (sem) | both on food  74.0% | emitting   0.0% of time
+signal off     fitness 0.5714 +- 0.0226 (sem) | both on food  75.0% | emitting   0.0% of time
+signal random  fitness 0.5656 +- 0.0237 (sem) | both on food  73.0% | emitting   0.0% of time

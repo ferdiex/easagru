@@ -1,0 +1,4 @@
+run gru_s2, condition gru, task big, champion champion.npy (existing), validation fitness nan
+signal normal  fitness 0.3756 +- 0.0425 (sem) | both on food  36.0% | emitting   0.0% of time
+signal off     fitness 0.3834 +- 0.0431 (sem) | both on food  40.0% | emitting   0.0% of time
+signal random  fitness 0.3854 +- 0.0430 (sem) | both on food  38.0% | emitting   0.0% of time

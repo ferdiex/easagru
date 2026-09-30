@@ -1,0 +1,4 @@
+run easa_evo_s2, condition easa_evo, task small, champion gen0144.npy, validation fitness 0.4880
+signal normal  fitness 0.3557 +- 0.0242 (sem) | both on food  45.0% | emitting   0.1% of time | GRU in control  69.2%
+signal off     fitness 0.3569 +- 0.0242 (sem) | both on food  44.0% | emitting   0.1% of time | GRU in control  69.6%
+signal random  fitness 0.3573 +- 0.0242 (sem) | both on food  46.0% | emitting   0.1% of time | GRU in control  69.5%
