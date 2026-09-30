@@ -2,9 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "easagru: emergence of a one-bit signal in two e-puck robots with a Res-GRU and EASA basal ganglia"
 authors:
-  - family-names: "Montes-González"
-    given-names: "Fernando M."
+  - family-names: "Montes-Gonzalez"
+    given-names: "Fernando"
     affiliation: "Instituto de Investigaciones en Inteligencia Artificial, Universidad Veracruzana"
 license: MIT
 version: 1.0.0
 date-released: 2026-10-01
+doi: 10.5281/zenodo.23051976

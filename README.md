@@ -4,7 +4,9 @@
   <img src="images/epucks.jpg" alt="Two e-puck robots in the PyBullet arena" width="600">
 </p>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.23051975"><img src="https://zenodo.org/badge/1397023105.svg" alt="DOI" height="28"></a>
+</p>
 
 Code and data for the paper *The value of information and the emergence of communication in evolved e-puck robots*.
 
@@ -97,10 +99,9 @@ If you use this code or data, please cite the archived version:
 
 Montes-González, F. M. (2026). *easagru: emergence of a one-bit signal in two
 e-puck robots with a Res-GRU and EASA basal ganglia* (Version 1.0.0)
-[Software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+[Software]. Zenodo. https://doi.org/10.5281/zenodo.23051976
 
-Replace `XXXXXXX` above (badge and citation) with the Zenodo record number
-once the release is archived. The paper reference will be added on publication.
+The paper reference will be added on publication.
 
 ## License
 
