@@ -6,8 +6,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-Code and data for the paper *El valor de la información y la emergencia de la
-comunicación en robots e-puck evolucionados* (English version in preparation).
+Code and data for the paper *The value of information and the emergence of communication in evolved e-puck robots*.
 
 Two e-puck robots, rebuilt from the official Webots model and validated in
 PyBullet, must find a food patch they can only detect with their ground
