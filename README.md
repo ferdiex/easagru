@@ -104,4 +104,6 @@ once the release is archived. The paper reference will be added on publication.
 
 ## License
 
-MIT (see LICENSE). `webots_ref/` files: Apache License 2.0 (Cyberbotics).
+This project is released under the [MIT License](LICENSE).
+
+The e-puck model files in the [webots_ref](webots_ref) folder are unmodified copies from the Webots project by Cyberbotics Ltd., distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
