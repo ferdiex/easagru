@@ -66,6 +66,25 @@ L console log, F camera follows robot A, R new episode, Q quit. The front LED
 turns yellow while a robot emits. Every step is logged to `easagru_log.csv`
 (disable with `--nolog`).
 
+## Validate the robot model
+
+    python3 test_step1_kinematics.py
+
+Checks the e-puck against the Webots kinematics: straight-line speed
+(expected 0.1256 m/s), spin rate on its axis (expected 4.83 rad/s) and tilt
+at rest. All experiments use physics at 120 Hz, with the controller acting
+every 8 steps (66.7 ms). On the machine used for the paper this gave
+0.1255 m/s and 4.62 rad/s, against 0.1253 m/s and 4.65 rad/s at 240 Hz.
+
+To repeat the check at 240 Hz, set in `easagru_config.json`
+
+    "timestep": 0.00416667,
+    "control_period_steps": 15
+
+run the test, and restore the original values (`0.00833333` and `8`)
+afterwards. The remaining validation tests (sensors, environment, basal
+ganglia) run with `scripts/run_tests.sh`.
+
 ## Re-run the experiments
 
     scripts/run_tests.sh                          # validation of robot, sensors, environment, BG (~6 min)
