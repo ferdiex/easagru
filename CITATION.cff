@@ -1,11 +1,30 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite it as below. If you use the results, please cite the paper (preferred citation)."
 title: "easagru: emergence of a one-bit signal in two e-puck robots with a Res-GRU and EASA basal ganglia"
 authors:
   - family-names: "Montes-Gonzalez"
     given-names: "Fernando"
     affiliation: "Instituto de Investigaciones en Inteligencia Artificial, Universidad Veracruzana"
+    orcid: "https://orcid.org/0000-0002-8024-3023"
 license: MIT
 version: 1.0.0
 date-released: 2026-10-01
 doi: 10.5281/zenodo.23051976
+repository-code: "https://github.com/ferdiex/easagru"
+keywords:
+  - evolutionary robotics
+  - emergent communication
+  - basal ganglia
+  - action selection
+  - e-puck
+preferred-citation:
+  type: article
+  title: "The value of information and the emergence of communication in evolved e-puck robots"
+  authors:
+    - family-names: "Montes-Gonzalez"
+      given-names: "Fernando"
+      orcid: "https://orcid.org/0000-0002-8024-3023"
+  year: 2026
+  journal: "arXiv preprint"
+  doi: 10.48550/arXiv.2610.13118
+  url: "https://arxiv.org/abs/2610.13118"

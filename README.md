@@ -6,12 +6,13 @@
 
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.23051975"><img src="https://zenodo.org/badge/1397023105.svg" alt="DOI" height="28"></a>
+  <a href="https://arxiv.org/abs/2610.13118"><img src="https://img.shields.io/badge/arXiv-2610.13118-b31b1b.svg" alt="arXiv" height="28"></a>
 </p>
 
-Code and data for the paper *The value of information and the emergence of communication in evolved e-puck robots*.
+Code and data for the paper *The value of information and the emergence of communication in evolved e-puck robots* ([arXiv:2610.13118](https://arxiv.org/abs/2610.13118)).
 
-Two e-puck robots, rebuilt from the official Webots model and validated in
-PyBullet, must find a food patch they can only detect with their ground
+Two e-puck robots, rebuilt in PyBullet from the official Webots model and
+validated against it, must find a food patch they can only detect with their ground
 sensors. They can emit a one-bit signal whose bearing and strength the
 partner perceives. Each robot is controlled by a Res-GRU (GRU with a residual
 input-output path), alone or as one channel of the EASA basal ganglia
@@ -114,13 +115,29 @@ freshly evolved run (which has `best_genomes/`), `scripts/evaluate_run.sh
 
 ## How to cite
 
-If you use this code or data, please cite the archived version:
+If you use this work, please cite the paper:
 
-Montes-González, F. M. (2026). *easagru: emergence of a one-bit signal in two
+Montes-Gonzalez, F. (2026). *The value of information and the emergence of
+communication in evolved e-puck robots*. arXiv:2610.13118.
+https://doi.org/10.48550/arXiv.2610.13118
+
+```bibtex
+@misc{montesgonzalez2026value,
+  author        = {Montes-Gonzalez, Fernando},
+  title         = {The value of information and the emergence of communication in evolved e-puck robots},
+  year          = {2026},
+  eprint        = {2610.13118},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  doi           = {10.48550/arXiv.2610.13118}
+}
+```
+
+If you use the code or data specifically, please also cite the archived version:
+
+Montes-Gonzalez, F. (2026). *easagru: emergence of a one-bit signal in two
 e-puck robots with a Res-GRU and EASA basal ganglia* (Version 1.0.0)
 [Software]. Zenodo. https://doi.org/10.5281/zenodo.23051976
-
-The paper reference will be added on publication.
 
 ## License
 
